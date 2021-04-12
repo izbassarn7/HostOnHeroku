@@ -1,0 +1,10 @@
+CREATE OR REPLACE PROCEDURE employee_report( p_dir
+IN VARCHAR2, p_filename IN VARCHAR2) IS f
+UTL_FILE.FILE_TYPE;
+CURSOR cur_avg IS
+SELECT last_name, department_id, salary FROM
+employees outer
+WHERE salary > (SELECT AVG(salary)
+FROM employees inner
+GROUP BY outer.department_id)
+ORDER BY department_id;
