@@ -29,6 +29,9 @@ Route::middleware(['set_locale'])->group(function (){
     Route::get('/appointment', function () {
         return view('appointment');
     });
+    Route::get('/barbers', function () {
+        return view('barbers');
+    });
 });
 
 Route::get('/multiuploads', 'App\Http\Controllers\UploadController@uploadForm');
