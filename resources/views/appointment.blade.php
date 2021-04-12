@@ -59,10 +59,10 @@
         <div id="sidebar-wrapper">
 			<div class="side-top">
 				<div class="logo-sidebar">
-					<a href="index"><img src="images/logos/logo.png" alt="image"></a>
+					<a href="home"><img src="images/logos/logo.png" alt="image"></a>
 				</div>
 				<ul class="sidebar-nav">
-					<li><a href="index">Home</a></li>
+					<li><a href="home">Home</a></li>
 					<li><a href="about">About Us</a></li>
 					<li><a href="services">Our Services</a></li>
 					<li><a href="barbers">Our Barbers</a></li>
@@ -87,7 +87,7 @@
 								</div>
 								<div class="clearfix"></div>
 								<ol class="breadcrumb">
-									<li><a href="index">Home</a></li>
+									<li><a href="home">Home</a></li>
 									<li class="active">Appointment</li>
 								</ol>
 								<div class="much">
