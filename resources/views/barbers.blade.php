@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Site Metas -->
-<title>SMBarber - Responsive HTML5 Template</title>
+<title>SMBarber</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -119,7 +119,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="widget clearfix">
                             <div class="hover-br">
-                                <img src="uploads/barber_team_01.jpg" alt="" class="img-responsive">
+                                <img src="izbassar.jpg" alt="" class="img-responsive" style="cheight: 300px" >
                                 <div class="social-up-hover">
                                     <div class="footer-social">
                                         <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
@@ -130,79 +130,13 @@
                                 </div>
                             </div>
                             <div class="widget-title">
-                                <h3>Soren Bo Bostian</h3>
+                                <h3>Izbassar Nurlan</h3>
                                 <small>The Founder</small>
                             </div>
                             <!-- end title -->
-                            <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of The Barber Shop Company.</p>
+                            <p>Hello guys, I am Izbassar from Atyrau. I am university student and founder of The SMBarber.</p>
 
 
-                        </div><!--widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <div class="widget clearfix">
-                            <div class="hover-br">
-                                <img src="uploads/barber_team_03.jpg" alt="" class="img-responsive">
-                                <div class="social-up-hover">
-                                    <div class="footer-social">
-                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="widget-title">
-                                <h3>Bryan Saftler</h3>
-                                <small>The Barber</small>
-                            </div>
-                            <!-- end title -->
-                            <p>Hello guys, I am Soren from Sirbistana. I am senior art director and barber of the Barber Shop Market.</p>
-                        </div><!--widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                        <div class="widget clearfix">
-                            <div class="hover-br">
-                                <img src="uploads/barber_team_02.jpg" alt="" class="img-responsive">
-                                <div class="social-up-hover">
-                                    <div class="footer-social">
-                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="widget-title">
-                                <h3>Matthew Bayliss</h3>
-                                <small>The Barber</small>
-                            </div>
-                            <!-- end title -->
-                            <p>Hello guys, I am Soren from Sirbistana. I am senior art director and barber of the Barber Shop Website.</p>
-                        </div><!--widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <div class="widget clearfix">
-                            <div class="hover-br">
-                                <img src="uploads/barber_team_01.jpg" alt="" class="img-responsive">
-                                <div class="social-up-hover">
-                                    <div class="footer-social">
-                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="widget-title">
-                                <h3>Soren Bo Bostian</h3>
-                                <small>The Founder</small>
-                            </div>
-                            <!-- end title -->
-                            <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of The Barber Shop Company.</p>
                         </div><!--widget -->
                     </div><!-- end col -->
 
@@ -326,22 +260,16 @@
                 <div class="footer-distributed">
                     <div class="footer-left">
                         <p class="footer-links">
-                            <a href="#">Home</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Pricing</a>
-                            <a href="#">About</a>
-                            <a href="#">Faq</a>
-                            <a href="#">Contact</a>
+                            <a href="#">@lang('main.end.1')</a>
+                            <a href="barbers">@lang('main.end.2')</a>
+                            <a href="services">@lang('main.end.3')</a>
+                            <a href="about">@lang('main.end.4')</a>
+                            <a href="#">@lang('main.end.5')</a>
+                            <a href="contact">@lang('main.end.6')</a>
                         </p>
-                        <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SMBarber</a> Design By : <a href="https://html.design/">html design</a></p>
+                        <p class="footer-company-name">@lang('main.end.7') &copy; 2021</p>
                     </div>
 
-                    <div class="footer-right">
-                        <form method="get" action="#">
-                            <input placeholder="Subscribe our newsletter.." name="search">
-                            <i class="fa fa-envelope-o"></i>
-                        </form>
-                    </div>
                 </div>
             </div><!-- end container -->
         </div><!-- end copyrights -->

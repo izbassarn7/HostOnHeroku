@@ -69,9 +69,9 @@ and skill than women. And in addition to straight scissors, the usual tool of an
         '9' => 'This is where you can quickly, cheaply and without ceremony put yourself in order.
                             For a complete immersion in the atmosphere, we offer guests a choice of alcoholic or energy drinks, and for game lovers - a PlayStation.
                             Maximum comfort and pleasant sensations are guaranteed. See how we work' ,
-        '10' => 'Soren Bo Bostian',
+        '10' => 'Nurlan Izbassar',
         '11' => 'The Founder',
-        '12' => 'Hello guys, I am Soren from Sirbistana. I am art director and founder of SMBarber.',
+        '12' => 'Hello guys, I am Izbassar from Atyrau. I am student and founder of SMBarber.',
         '13' => 'Bryan Saftler',
         '14' => 'The Barber',
         '15' => 'Hello guys, I am Bryan from Atyrau. I am barber of the SMBarber.',

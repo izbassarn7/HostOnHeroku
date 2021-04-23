@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
      <!-- Site Metas -->
-    <title>SMBarber - Responsive HTML5 Template</title>
+    <title>SMBarber</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -66,7 +66,7 @@
 					<li><a href="about">About Us</a></li>
 					<li><a href="services">Our Services</a></li>
 					<li><a href="barbers">Our Barbers</a></li>
-					<li><a class="active" href="appointment.blade.php">Appointment</a></li>
+					<li><a class="active" href="appointment">Appointment</a></li>
 					<li><a href="contact">Contact</a></li>
 				</ul>
 			</div>
@@ -101,7 +101,7 @@
 			</div><!-- end all-page-bar -->
 
             <section class="section nopad cac text-center">
-                <a href="#"><h3>Interesting our awesome barber services? Just drop an appointment form below!</h3></a>
+                <a href="/contact-form"><h3>Interesting our awesome barber services? Just drop an appointment form below!</h3></a>
             </section>
 
             <div id="appointment" class="section wb">
@@ -116,7 +116,7 @@
                     </div><!-- end title -->
 
                     <div class="row">
-						<div class="col-md-6">
+                        <div class="container">
 							<div class="appointment-left">
 								<h2>Opening Time</h2>
 								<div class="appointment-time">
@@ -146,50 +146,15 @@
 								</div>
 							</div>
 						</div>
-                        <div class="col-md-6">
-                            <div class="contact_form">
-                                <div id="message"></div>
-                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
-                                    <fieldset class="row-fluid">
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <label class="sr-only">Select Time</label>
-                                            <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
-                                                <option value="selecttime">Select Time</option>
-                                                <option value="Weekdays">Weekdays</option>
-                                                <option value="Weekend">Weekend</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                            <button class="btn btn-light btn-radius btn-brd grd1 btn-block subt"><a
-                                                    href="/multiuploads">Attach hairstyle photo you want</a></button>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
-                                        </div>
-
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block subt">
-                                                <a href="/mail/send" style="color: #ffffff">Get Appointment</a></button>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div><!-- end col -->
                     </div><!-- end row -->
                 </div><!-- end container -->
+                <div class="form-row text-center">
+                    <div class="col-12">
+                        <a href="multiuploads" class="btn btn-light btn-radius btn-brd grd1 subt active" role="button" aria-pressed="true">Upload your hairstyle</a>
+                    </div>
+                </div>
             </div><!-- end section -->
+
 
             <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_20.jpg');">
                 <div class="container-fluid">
@@ -264,22 +229,16 @@
                     <div class="footer-distributed">
                         <div class="footer-left">
                             <p class="footer-links">
-                                <a href="#">Home</a>
-                                <a href="#">Blog</a>
-                                <a href="#">Pricing</a>
-                                <a href="#">About</a>
-                                <a href="#">Faq</a>
-                                <a href="#">Contact</a>
+                                <a href="#">@lang('main.end.1')</a>
+                                <a href="barbers">@lang('main.end.2')</a>
+                                <a href="services">@lang('main.end.3')</a>
+                                <a href="about">@lang('main.end.4')</a>
+                                <a href="#">@lang('main.end.5')</a>
+                                <a href="contact">@lang('main.end.6')</a>
                             </p>
-                            <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SMBarber</a> Design By : <a href="https://html.design/">html design</a></p>
+                            <p class="footer-company-name">@lang('main.end.7') &copy; 2021</p>
                         </div>
 
-                        <div class="footer-right">
-                            <form method="get" action="#">
-                                <input placeholder="Subscribe our newsletter.." name="search">
-                                <i class="fa fa-envelope-o"></i>
-                            </form>
-                        </div>
                     </div>
                 </div><!-- end container -->
             </div><!-- end copyrights -->

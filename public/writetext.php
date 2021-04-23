@@ -1,5 +1,5 @@
 <?php
-$fp = fopen('lidn.txt', 'w');
-fwrite($fp, 'Izbassarov Meirambek');
+$fp = fopen('lidna.txt', 'a');
+fwrite($fp, 'Web ');
 fclose($fp);
 ?>
