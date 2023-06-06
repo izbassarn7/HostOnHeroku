@@ -6,6 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
 ## About Project
 
 Designed and implemented a web-based application for a local barbershop in Atyrau. The system enables clients to make online appointments. Developed using PHP, Laravel, and MySQL, this project provided hands-on experience in creating customer-centric digital solutions and managing real-time data.
